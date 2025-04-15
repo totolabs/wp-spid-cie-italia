@@ -1,10 +1,10 @@
 <?php
 /*
-Plugin Name: WP SPID Italia
-Description: SPID - Sistema Pubblico di Identità Digitale
-Author: Marco Milesi
-Version: 2.8.1
-Author URI: http://www.marcomilesi.com
+Plugin Name: WP SPID+CIE Italia
+Description: Plugin per l’autenticazione su WordPress tramite SPID e CIE.
+Author: Totolabs (fork da Marco Milesi)
+Version: 1.0.0
+Author URI: http://www.totolabs.it
 */
 
 include( plugin_dir_path( __FILE__ ) . 'constants.php');
