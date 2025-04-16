@@ -12,15 +12,15 @@
 <div class="changelog">
 			<div class="under-the-hood two-col">
 				<div class="col">
-					<h3><a href="https://wordpress.org/plugins/wp-spid-italia/">Repository WordPress</a> &bull; <a href="https://github.com/WPGov/wp-spid-italia">Repository (GitHub)</a></h3>
+					<h3><a href="https://wordpress.org/plugins/wp-spid-cie-italia/">Repository WordPress</a> &bull; <a href="https://github.com/WPGov/wp-spid-cie-italia">Repository (GitHub)</a></h3>
 					<p>Questo plugin open-source è disponibile su GitHub, dove puoi aprire una segnalazione o fare una pull request per migliorare il prodotto.</p>
 				</div>
 				<div class="col">
-					<h3><a href="https://wordpress.org/plugins/wp-spid-italia/#developers">Changelog</a></h3>
+					<h3><a href="https://wordpress.org/plugins/wp-spid-cie-italia/#developers">Changelog</a></h3>
 					<p>Consulta le ultime migliorie apportate, nuove funzioni e lo storico di tutti i bugfix.</p>
 				</div>
 				<div class="col">
-					<h3><a href="https://github.com/WPGov/wp-spid-italia/wiki">Wiki & Documentazione</a></h3>
+					<h3><a href="https://github.com/WPGov/wp-spid-cie-italia/wiki">Wiki & Documentazione</a></h3>
 					<p>Su GitHub sono disponibili guide e videotutorial semplici e intuitivi per implementare al meglio il plugin.</p>
 				</div>
         <div class="col">

@@ -1,21 +1,30 @@
-![SPID WP](https://raw.githubusercontent.com/WPGov/wp-spid-italia/asset/banner-1544x500.png)
+# WP SPID-CIE Italia
 
-Plugin WordPress per l'interfacciamento con il Sistema Pubblico di Identità Digitale (SPID)
+Plugin WordPress per l'autenticazione degli utenti tramite SPID e CIE, usando SimpleSAMLphp.
 
-* GitHub: https://github.com/WPGov/wp-spid-italia
-* WP.org: https://wordpress.org/plugins/wp-spid-italia
+## Funzionalità
 
-## Credits
+- Autenticazione via SPID e CIE
+- Login utente automatico
+- Creazione utente WordPress in caso non esista
+- Certificati generati automaticamente
+- Configurazione semplificata via pannello admin
 
-Copyright © 2017-2025 **Marco Milesi**
-www.marcomilesi.com - www.wpgov.it
+## Requisiti
 
-### Ringraziamenti
-* **Christian Ghellere, Andrea Smith**: attività di software testing
-* **Paolo Bozzo**: sviluppo libreria Drupal-PASW
-* **Nadia Caprotti**: condivisione know-how Drupal-PASW
-* **Comune di Firenze**: sviluppo libreria SimpleSaml riadattata da Paolo
-* **Porte Aperte sul Web**
+- WordPress 5.5+
+- PHP 7.4+
+- Estensione `openssl` attiva
+- Hosting che consenta `exec()` e scrittura in `cert/`
 
-### Sponsor
-* **Italian Linux Society**
+## Installazione
+
+1. Carica la cartella `wp-spid-cie-italia` in `wp-content/plugins`
+2. Inserisci la libreria SimpleSAMLphp in `wp-spid-cie-italia/simplesamlphp`
+3. Attiva il plugin
+4. Vai in **SPID e CIE** nel menu admin per configurare
+
+## Note
+
+- I certificati sono salvati nella cartella `cert/` e rigenerati a ogni salvataggio.
+- È possibile sostituirli con certificati reali.

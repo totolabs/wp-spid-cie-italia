@@ -1,7 +1,7 @@
-﻿=== WP SPID Italia ===
-Contributors: Milmor
+﻿=== WP SPID CIE Italia ===
+Contributors: Milmor, Totolabs
 Donate link: https://www.paypal.me/milesimarco
-Tags: spid, italia, sistema, pubblico, identità, digitale, login, sistema pubblico di identità digitale, wpgov, marco, milesi, marco milesi
+Tags: spid, cie, italia, sistema, pubblico, identità, digitale, login, sistema pubblico di identità digitale, wpgov, marco, milesi, marco milesi, totolabs
 Requires at least: 4.8
 Requires PHP: 7
 Tested up to: 6.8
@@ -11,15 +11,16 @@ License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
 SPID - Sistema Pubblico di Identità Digitale
+CIE - Carta di Identità Elettronica
 
 == Description ==
 
-Plugin WordPress per l'interfacciamento con il Sistema Pubblico di Identità Digitale (SPID)
+Plugin WordPress per l'interfacciamento con il Sistema Pubblico di Identità Digitale (SPID) e CIE (Carta di identità elettronica)
 
 https://www.youtube.com/watch?v=w5Z5EBG1R1M
 
-* GitHub: https://github.com/WPGov/wp-spid-italia
-* WP.org: https://wordpress.org/plugins/wp-spid-italia
+* GitHub: https://github.com/WPGov/wp-spid-cie-italia
+* WP.org: https://wordpress.org/plugins/wp-spid-cie-italia
 
 https://www.youtube.com/watch?v=i2eTL_Q2xfM
 
@@ -38,7 +39,7 @@ Copyright © 2017-2025 **Marco Milesi**
 
 == Installation ==
 
-Per informazioni dettagliate consultare la [documentazione](https://github.com/WPGov/wp-spid-italia/wiki).
+Per informazioni dettagliate consultare la [documentazione](https://github.com/WPGov/wp-spid-cie-italia/wiki).
 
 ### Videotutorial
 
@@ -70,7 +71,7 @@ https://www.youtube.com/watch?v=2UNAtVjFFAs
 
 = 2.8 20231025 =
 * [IMPROVE] Nuova gestione degli errori in caso di utenza non registrata (messaggio su standard WP)
-* [IMPROVE] Revisione filtro in caso di nuove utenze con controllo classe WP_User (rif. wp-spid-italia.php:284)
+* [IMPROVE] Revisione filtro in caso di nuove utenze con controllo classe WP_User (rif. wp-spid-cie-italia.php:284)
 * [BUGFIX] Corretto errore di mancata possibilità reset password WP in alcune configurazioni
 * [BUGFIX] Migliorata la gestione degli errori in fase di login e errori in alcune configurazioni
 * Testato con WordPress 6.4
@@ -136,24 +137,24 @@ https://www.youtube.com/watch?v=2UNAtVjFFAs
 * [BUGFIX] Updated Inforcert metadata
 
 = 2.3 20211230 =
-* [NEW] Added compatibility with third party login URL modifiers and custom filters - check [wiki](https://github.com/WPGov/wp-spid-italia/wiki)
+* [NEW] Added compatibility with third party login URL modifiers and custom filters - check [wiki](https://github.com/WPGov/wp-spid-cie-italia/wiki)
 * [IMPROVEMENT] Performance boost
 * [IMPROVEMENT] Settings page changes
 * [IMPROVEMENT] Readme and doc changes
 * [BUGFIX] Removed some warnings
 
 = 2.2.4 20211201 =
-* [BUGFIX] Minor bugfix - https://github.com/WPGov/wp-spid-italia/releases
+* [BUGFIX] Minor bugfix - https://github.com/WPGov/wp-spid-cie-italia/releases
 
 = 2.2.3 20211016 =
-* [BUGFIX] Minor bugfix - https://github.com/WPGov/wp-spid-italia/releases
+* [BUGFIX] Minor bugfix - https://github.com/WPGov/wp-spid-cie-italia/releases
 
 = 2.2.2 20211019 =
-* [BUGFIX] Minor bugfix - https://github.com/WPGov/wp-spid-italia/releases
+* [BUGFIX] Minor bugfix - https://github.com/WPGov/wp-spid-cie-italia/releases
 
 = 2.2 20211017 =
 * [NEW] Frontend button UI
-* [NEW] Added various filters - check [wiki](https://github.com/WPGov/wp-spid-italia/wiki)
+* [NEW] Added various filters - check [wiki](https://github.com/WPGov/wp-spid-cie-italia/wiki)
 * [IMPROVEMENT] Various code refactoring
 * [BUGFIX] Minor bugfix
 
